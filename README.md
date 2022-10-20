@@ -1,15 +1,22 @@
 # RapidOcrOnnxJvm
 
 ### Project下载
-* 有整合好源码和依赖库的完整工程项目，文件比较大，可到Q群共享内下载，找以Project开头的压缩包文件
+
+* 整合好源码和依赖库的完整工程项目，可在Release中下载(github)
+* 可到Q群共享内下载，找Project_RapidOcrOnnxJvm压缩包文件
 * 如果想自己折腾，则请继续阅读本说明
 
 ### Demo下载(win、mac、linux)
-编译好的demo文件比较大，可以到Q群共享内下载
+
+编译好的demo，可以到Q群共享内下载 或者Release下载
+
+* jni部分代码请参考[C++项目](https://github.com/RapidAI/RapidOcrOnnx)
+* 各PC平台jni库[下载](https://github.com/RapidAi/RapidOcrOnnx/releases)
+* 因为jvm代码不常更新，可以把新版的jni库(例1.1.0)替换到旧版的demo里(比如1.0.0)
 
 ### 介绍
 
-* 本项目为java或kotlin通过jni调用RapidOcrOnnx JNI动态运行库的范例。
+* 本项目为java或kotlin通过jni调用RapidOcrOnnx动态运行库的范例。
 
 ### 编译环境
 
@@ -38,7 +45,7 @@
 
 * 转到“Artifacts”选项卡
 * 按“+”号新建配置，Add->Jar->Empty
-* 编辑Name:RapidOcrOnnxJvm，下面列表左边的名称也会对应改为“BRapidOcrOnnxJvm.jar”，这是最终输出的文件名
+* 编辑Name:RapidOcrOnnxJvm，下面列表左边的名称也会对应改为“RapidOcrOnnxJvm.jar”，这是最终输出的文件名
 * 选中左边列表的“RapidOcrOnnxJvm.jar”，底部出现两个按钮，选择“Use Existing Manifest...”，选择src/main/resources/META-INF/MANIFEST.MF
 * 展开右边列表，找到RapidOcrOnnxJvm/main/“RapidOcrOnnxJvm.main compile output”，右键“Put into Output Root”
 * 选中右边列表的几个Gradle依赖包，“kotlin-stdlib-xxx:版本”/“annotations:版本”，右键“Extract Into Output
