@@ -4,6 +4,7 @@
 
 * 整合好源码和依赖库的完整工程项目，可在Release中下载(github)
 * 可到Q群共享内下载，找Project_RapidOcrOnnxJvm压缩包文件
+* QQ群号：887298230(已满)，2群(755960114)
 * 如果想自己折腾，则请继续阅读本说明
 
 ### Demo下载(win、mac、linux)
